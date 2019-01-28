@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "R.swift.Library"
-  spec.version      = "4.0.0"
+  spec.version      = "4.0.1"
   spec.license      = "MIT"
 
   spec.summary      = "Companion library for R.swift, featuring types used to type resources"
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "https://twitter.com/mac_cain13"
 
   spec.requires_arc = true
-  spec.source          = { :git => "https://github.com/RnDity/R.swift.Library", :branch => "v_4_0_0_with_swift_version_specified" }
+  spec.source          = { :git => "https://github.com/RnDity/R.swift.Library", :branch => "v#{spec.version}" }
 
   spec.ios.deployment_target     = '8.0'
   spec.tvos.deployment_target    = '9.0'
