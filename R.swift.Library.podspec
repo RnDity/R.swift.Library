@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "https://twitter.com/mac_cain13"
 
   spec.requires_arc = true
-  spec.source          = { :git => "https://github.com/mac-cain13/R.swift.Library.git", :tag => "v#{spec.version}" }
+  spec.source          = { :git => "https://github.com/RnDity/R.swift.Library", :branch => "v_4_0_0_with_swift_version_specified" }
 
   spec.ios.deployment_target     = '8.0'
   spec.tvos.deployment_target    = '9.0'
@@ -24,4 +24,5 @@ Pod::Spec.new do |spec|
   spec.module_name   = "Rswift"
   spec.source_files  = "Library/**/*.swift"
 
+  spec.swift_version = '4.0'
 end
